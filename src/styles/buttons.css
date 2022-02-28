@@ -1,0 +1,91 @@
+button{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul-400);
+  color: var(--cinza-100);
+  border-radius: 8px;
+  transition: 0.25s ease all;
+  -webkit-transition: 0.25s ease all;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+}
+button:hover{
+  background-color: var(--azul-500);
+}
+button.small{
+  width: 50px;
+  height: 48px;
+}
+button.medium{
+  width: 50%;
+  height: 48px;
+}
+button.large{
+  width: 100%;
+  height: 64px;
+}
+
+button.primary{
+  background-color: var(--azul-400);
+  color: var(--cinza-100);
+}
+button.primary:hover{
+  background-color: var(--azul-500);
+}
+
+button.secondary{
+  background-color: transparent;
+  color: var(--azul-400);
+  border: 2px solid var(--azul-400);
+}
+button.secondary:hover{
+  background-color: var(--azul-400);
+  color: var(--cinza-100);
+}
+button.terciary{
+  color: var(--azul-400);
+}
+
+button.terciary{
+  outline: var(--azul-400);
+}
+
+button.success{
+  background-color: var(--verde-400);
+}
+button.success:hover{
+  background-color: var(--verde-500);
+}
+button.danger{
+  background-color: var(--vermelho-400)!important;
+}
+button.danger:hover{
+  background-color: var(--vermelho-500)!important;
+}
+button.warning{
+  background-color: var(--laranja-400)!important;
+}
+button.warning:hover{
+  background-color: var(--laranja-500)!important;
+}
+button.default{
+  background-color: var(--cinza-700);
+}
+button.default:hover{
+  background-color: var(--cinza-600);
+}
+
+button.secondary.success{
+  border-color: var(--verde-400);
+  color: var(--verde-400);
+  background-color: transparent;
+}
+button.secondary.success:hover{
+  color: var(--cinza-100);
+  background-color: var(--verde-400);
+}
