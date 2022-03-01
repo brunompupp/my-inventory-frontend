@@ -22,7 +22,7 @@ function Button(props){
 
   return (
     <button 
-      class={size + ' ' + style} 
+      className={size + ' ' + style} 
       type={type}
     >{text}</button>
   )

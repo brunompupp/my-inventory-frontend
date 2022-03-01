@@ -67,4 +67,8 @@ small{
   color: var(--red-400)
 }
 
+.default{
+  color: var(--gray-600)
+}
+
 
