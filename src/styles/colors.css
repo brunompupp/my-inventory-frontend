@@ -1,0 +1,26 @@
+:root{
+  --green-500: #08A384;
+  --green-400: #0BD6AC;
+  --green-300: #4DDDC0;
+  --orange-500: #D98943;
+  --orange-400: #F2994A;
+  --orange-300: #FFA14F;
+  --red-500: #D14D4D;
+  --red-400: #EB5757;
+  --red-300: #F75C5C;
+  --blue-800: #0A1C31;
+  --blue-700: #052230;
+  --blue-600: #082F43;
+  --blue-500: #006496;
+  --blue-400: #0075B0;
+  --blue-300: #0085CA;
+  --blue-200: #3FA1D2;
+  --blue-100: #0BD1E0;
+  --gray-700: #808080;
+  --gray-600: #9F9F9F;
+  --gray-500: #BFBFBF;
+  --gray-400: #D0D0D0;
+  --gray-300: #DCDCDC;
+  --gray-200: #EBEBEB;
+  --gray-100: #F2F2F2;
+}

@@ -1,0 +1,13 @@
+.light{
+  background-color: var(--gray-200);
+  color: var(--blue-600);
+}
+
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6{
+  color: var(--blue-600)
+}

@@ -1,44 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('./reset.css');
+@import url('./colors.css');
+@import url('./dark.css');
+@import url('./light.css');
+@import url('./buttons.css');
 
-:root{
-  --verde-500: #08A384;
-  --verde-400: #0BD6AC;
-  --verde-300: #4DDDC0;
-  --laranja-500: #D98943;
-  --laranja-400: #F2994A;
-  --laranja-300: #FFA14F;
-  --vermelho-500: #D14D4D;
-  --vermelho-400: #EB5757;
-  --vermelho-300: #F75C5C;
-  --azul-800: #0A1C31;
-  --azul-700: #052230;
-  --azul-600: #082F43;
-  --azul-500: #006496;
-  --azul-400: #0075B0;
-  --azul-300: #0085CA;
-  --azul-200: #3FA1D2;
-  --azul-100: #0BD1E0;
-  --cinza-700: #808080;
-  --cinza-600: #9F9F9F;
-  --cinza-500: #BFBFBF;
-  --cinza-400: #D0D0D0;
-  --cinza-300: #DCDCDC;
-  --cinza-200: #EBEBEB;
-  --cinza-100: #F2F2F2;
+
+html,
+body,
+#root{
+  width: 100%;
+  height: 100%;
 }
 
-@import url('./buttons.css');
+
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
 }
+
+h1{
+  font: 700 48px/72px Poppins, sans-serif;
+}
+h2{
+  font: 600 36px/54px Poppins, sans-serif;
+}
+h3{
+  font: 600 32px/48px Poppins, sans-serif;
+}
+h4{
+  font: 600 28px/42px Poppins, sans-serif;
+}
+h5{
+  font: 600 24px/36px Poppins, sans-serif;
+}
+h6{
+  font: 600 18px/27px Poppins, sans-serif;
+}
+
+
 
 a,
 body,
 input,
 textarea{
-  font-family: 'Open Sans', sans-serif;
-
+  font: 400 16px/24px 'Open Sans', sans-serif;
+  letter-spacing: 1.5px;
 }
+
+strong, b{
+  font-weight: 700;
+}
+
+small{
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.success{
+  color: var(--green-400);
+}
+.warning{
+  color: var(--orange-400)
+}
+.danger{
+  color: var(--red-400)
+}
+
 
