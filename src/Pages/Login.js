@@ -8,28 +8,28 @@ import '../styles/login.css';
 
 function Login() {
   return (
-    <div className="dark" id="page-login">
-      <div className="container">
+    <div className="dark flex acenter" id="page-login">
+      <div className="container flex acenter jbetween">
 
-        <div className="left">
+        <div className="left flex acenter jstart">
           <img src={imgLogin} alt="Bem vind@" title='Bem vind@' />
         </div>
-        <div className="right">
+        <div className="right flex acenter jcenter fcolumn">
           <img src={logotipo} alt="My Inventory" title='My Inventory' />
           <form action="" id="login">
-            <div className="group-inputs">
-              <label htmlFor="emailLogin">
+            <div className="group-inputs flex acenter jbetween">
+              <label htmlFor="emailLogin" className='flex acenter jcenter'>
                 <FiUser size={16}/>
               </label>
               <input type="email" id="emailLogin" />
             </div>
-            <div className="group-inputs">
-              <label htmlFor="passLogin">
+            <div className="group-inputs flex acenter jbetween">
+              <label htmlFor="passLogin" className='flex acenter jcenter'>
                 <FiLock size={16}/>
               </label>
               <input type="password" id="passlLogin" />
             </div>
-            <div id="forgotPassword">
+            <div id="forgotPassword" className='flex acenter jend'>
               <a href="/" className='default'>
                 <FiArrowRight size={10}/>
                 <span>Esqueceu a senha?</span>
