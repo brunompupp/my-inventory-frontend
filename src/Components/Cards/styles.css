@@ -1,0 +1,37 @@
+.cards{
+  grid-area: card;
+  background-color: var(--blue-600);
+  width: calc(100% / 4);
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.25s ease all;
+  -webkit-transition: 0.25s ease all;
+}
+
+.cards +.cards{
+  margin-left: 24px;
+}
+
+.cards:hover{
+  border-color: var(--gray-300);
+}
+.cards:hover .cards-content .card-icon{
+  color: var(--gray-300)
+}
+
+.cards .card-title{
+  margin-bottom: 18px;
+}
+
+.cards .cards-content .card-icon{
+  color: var(--blue-700);
+  transition: 0.25s ease all;
+  -webkit-transition: 0.25s ease all;
+}
+.cards .cards-content .card-value{
+  color: var(--gray-300);
+  font-size: 48px;
+  font-weight: 600;
+}

@@ -107,3 +107,7 @@ small{
 .jend{
   justify-content: flex-end;
 }
+
+.row{
+  width: 100%;
+}

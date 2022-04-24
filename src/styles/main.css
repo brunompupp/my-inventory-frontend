@@ -1,0 +1,17 @@
+main{
+  position: absolute;
+  top: 125px;
+  left: 125px;
+  width: calc(100% - 167px);
+
+}
+
+.deskTables{
+  width: 100%;
+}
+
+
+
+table{
+  width: 100%;
+}

@@ -1,6 +1,11 @@
 #menu{
   width: 82px;
   height: 100vh;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+
 }
 
 .dark #menu .icon-bar,
@@ -29,7 +34,7 @@
 }
 
 #menu .icon-bar img{
-  width: 50px;
+  width: 30px;
   max-width: 100%;
 }
 
